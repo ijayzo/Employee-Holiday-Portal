@@ -4,7 +4,7 @@ The Employee Holiday Portal is a web based software that helps organizations off
 
 # Technologies Used
 - BACKEND (App 1 & 3)
-• Java
++ Java
 • Spring Boot
 • CloudSQL Postgre
 • Gmail SMTP
