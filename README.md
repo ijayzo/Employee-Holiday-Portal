@@ -84,7 +84,7 @@ API usage
 - http://localhost:8080/employee/getAllEmployees
 
 ```text
-Gets All Employees in the Database in JSon format.
+Gets All Employees in the Database in JSON format.
 ```
 
 - http://localhost:8080/employee/deleteEmployee
@@ -95,16 +95,16 @@ Front End will use this controller to call for the deleteEmployee service.
 
 - http://localhost:8080/flights/getAllFlights
 ```text
-Gets All Flights in the Database in JSon format.
+Gets All Flights in the Database in JSON format.
 ```
 - http://localhost:8080/flights/getDirectFromAPI/from/{from}/to/{to}
 ```text
-Gets All Flights from 3rd Party API in JSon format.
+Gets All Flights from 3rd Party API in JSON format.
 {from} and {to} uses three-letter Airport codes. 
 ```
 - http://localhost:8080/flights/getFlights/from/{from}/to/{to}
 ```text
-Gets Specific Flights from 3rd Party API in JSon format.
+Gets Specific Flights from 3rd Party API in JSON format.
 {from} and {to} uses three-letter Airport codes. 
 ```
 - http://localhost:8080/flights/getOneFlight/{flightID}
@@ -122,7 +122,7 @@ Controller gets used in Front End to Get Hotels fromt the Database in JSon forma
 ```
 - http://localhost:8080/hotel/all
 ```text
-Gets All Hotels in the Database in JSon format.
+Gets All Hotels in the Database in JSON format.
 ```
 - http://localhost:8080/hotel/new
 ```text
@@ -138,10 +138,10 @@ Deletes Specific Hotel (more so used in Front End).
 ```
 - http://localhost:8080/auth/login
 ```
-Login Controller, uses JSon format 
+Login Controller, uses JSON format 
 {
-	"username": "new",
-	"password": "hotel"
+	"username": "someusernme",
+	"password": "password"
 }
 ```
 - http://localhost:8080/package/getAllPackages
@@ -149,7 +149,7 @@ Login Controller, uses JSon format
 Gets All Packages in the Database in JSon format.
 ```
 - http://localhost:8080/package/createPackages
-```JSOn
+```JSON
 {
 	"employeeId": "6",
 	"packageCategory": "STAYCATION",
@@ -165,11 +165,18 @@ Gets All Packages in the Database in JSon format.
 }
 ```
 - http://localhost:8080/package/updatePackages
-```
-
+```text
+Save Controller (above) is used to update the Packages.
 ```
 - http://localhost:8080/package/getOnePackage/{packageID}
+```text
+Gets a Specific Package by Package ID in JSON format.
+```
 - http://localhost:8080/package/deletePackage/{packageID}
+```text
+Deletes a specific Package by Package ID.
+Used more so in the Front End.
+```
 
 usage is the same as what i did for app3.  just include a readme file with all the controller calls and the expected responses
 
@@ -217,7 +224,7 @@ Email sent successfully to isaias.jasso@revature.net
 monitoring API
 - http://localhost:8070/actuator/health
 
-```json
+```JSON
 {"status":"UP"}
 ```
 
