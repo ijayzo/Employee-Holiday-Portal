@@ -60,6 +60,10 @@ The Employee Holiday Portal is a web based software that helps organizations off
 All the code required to get started
 Images of what it should look like
 
+# Usage of Employee Holiday Portal App
+
+usage is the same as what i did for app3.  just include a readme file with all the controller calls and the expected responses
+
 # Usage of Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
