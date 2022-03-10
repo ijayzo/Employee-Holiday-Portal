@@ -97,13 +97,13 @@ Test Email sent successfully
 
 - http://localhost:8070/mailapi/sendCancelEmail
 - JSON Body: {
-  "emailTo": "noel.gopez@revature.net",
+  "emailTo": "isaias.jasso@revature.net",
   "cancelReason": "unforseen issues with the supplier",
   "packageDesc": "Super Awesome Miami Beach Package"
   }
 
 ```txt
-Email sent successfully to noel.gopez@revature.net
+Email sent successfully to isaias.jasso@revature.net
 ```
 monitoring API
 - http://localhost:8070/actuator/health
