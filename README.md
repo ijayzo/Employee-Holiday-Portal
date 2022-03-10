@@ -62,6 +62,24 @@ Images of what it should look like
 
 # Usage of Employee Holiday Portal App
 
+Run com.example.demo.EmployeeTravelPackageApplication as a Java Application.
+
+Runs on port of Spring Boot - 8080
+
+API usage
+
+http://localhost:8080/employee/createEmployee
+
+##
+
+http://localhost:8080/employee/getAllEmployees
+
+##
+
+http://localhost:8080/employee/deleteEmployee
+
+##
+
 usage is the same as what i did for app3.  just include a readme file with all the controller calls and the expected responses
 
 # Usage of Create React App
