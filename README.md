@@ -77,7 +77,7 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 
-# app3 mailsender Usage
+# Usage of app3 mailsender
 
 Run com.example.demo.DemoApplication as a Java Application.
 
