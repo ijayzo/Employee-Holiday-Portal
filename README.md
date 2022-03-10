@@ -68,17 +68,36 @@ Runs on port of Spring Boot - 8080
 
 API usage
 
-http://localhost:8080/employee/createEmployee
+- http://localhost:8080/employee/createEmployee
 
-##
+```JSon
+{
+	"firstName": "new",
+	"lastName": "employee",
+	"email": "approved",
+	"username": "new.Emp",
+	"password": "p@55w0rd",
+	"role": "EMPLOYEE"
+}
+```
 
-http://localhost:8080/employee/getAllEmployees
+- http://localhost:8080/employee/getAllEmployees
 
-##
+```text
+Gets All Employees in the Database in JSon format.
+```
 
-http://localhost:8080/employee/deleteEmployee
+- http://localhost:8080/employee/deleteEmployee
 
-##
+```text
+Front End will use this controller to call for the deleteEmployee service.
+```
+
+- http://localhost:8080/flights/getAllFlights
+- http://localhost:8080/flights/getDirectFromAPI/from/{from}/to/{to}
+- http://localhost:8080/flights/getFlights/from/{from}/to/{to}
+- http://localhost:8080/flights/getOneFlight/{flightID}
+- http://localhost:8080/flights/deleteFlights/from/{from}/to/{to}
 
 usage is the same as what i did for app3.  just include a readme file with all the controller calls and the expected responses
 
