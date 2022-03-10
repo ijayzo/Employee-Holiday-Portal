@@ -94,10 +94,82 @@ Front End will use this controller to call for the deleteEmployee service.
 ```
 
 - http://localhost:8080/flights/getAllFlights
+```text
+Gets All Flights in the Database in JSon format.
+```
 - http://localhost:8080/flights/getDirectFromAPI/from/{from}/to/{to}
+```text
+Gets All Flights from 3rd Party API in JSon format.
+{from} and {to} uses three-letter Airport codes. 
+```
 - http://localhost:8080/flights/getFlights/from/{from}/to/{to}
+```text
+Gets Specific Flights from 3rd Party API in JSon format.
+{from} and {to} uses three-letter Airport codes. 
+```
 - http://localhost:8080/flights/getOneFlight/{flightID}
+```text
+Gets a Specific Flight from 3rd Party API in JSon format using a flight ID.
+```
 - http://localhost:8080/flights/deleteFlights/from/{from}/to/{to}
+```text
+Deletes Specific Flights (more so used in Front End).
+{from} and {to} uses three-letter Airport codes. 
+```
+- http://localhost:8080/hotel/get
+```text
+Controller gets used in Front End to Get Hotels fromt the Database in JSon format by Hotel Partner ID.
+```
+- http://localhost:8080/hotel/all
+```text
+Gets All Hotels in the Database in JSon format.
+```
+- http://localhost:8080/hotel/new
+```text
+Post Controller to create a Hotel in the Database in JSon format.
+{
+	"hotelLocation": "new",
+	"hotelName": "hotel"
+}
+```
+- http://localhost:8080/hotel/delete
+```text
+Deletes Specific Hotel (more so used in Front End).
+```
+- http://localhost:8080/auth/login
+```
+Login Controller, uses JSon format 
+{
+	"username": "new",
+	"password": "hotel"
+}
+```
+- http://localhost:8080/package/getAllPackages
+```text
+Gets All Packages in the Database in JSon format.
+```
+- http://localhost:8080/package/createPackages
+```JSOn
+{
+	"employeeId": "6",
+	"packageCategory": "STAYCATION",
+	"travelDate": "2022-05-02",
+	"travelDestination": "Miami",
+	"packageDays": "7",
+	"packageStatus": "PUBLISHED",
+	"packageCost": "8000",
+	"hotelPartnerId" : "65",
+	"flightId" : "1567",
+	"packageDescription": "Beach",
+	"totalPackageSignUp": "5"
+}
+```
+- http://localhost:8080/package/updatePackages
+```
+
+```
+- http://localhost:8080/package/getOnePackage/{packageID}
+- http://localhost:8080/package/deletePackage/{packageID}
 
 usage is the same as what i did for app3.  just include a readme file with all the controller calls and the expected responses
 
