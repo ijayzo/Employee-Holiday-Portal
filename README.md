@@ -177,8 +177,25 @@ Gets a Specific Package by Package ID in JSON format.
 Deletes a specific Package by Package ID.
 Used more so in the Front End.
 ```
-
-usage is the same as what i did for app3.  just include a readme file with all the controller calls and the expected responses
+- http://localhost:8080/packageSignUp/create
+```JSON
+{
+	"employeeId" : "8",
+	"packageId" : "6"
+}
+```
+- http://localhost:8080/packageSignUp/getAll/{id}
+```text
+Gets All Employees signed up to a Package by Package ID {id}.
+```
+- http://localhost:8080/packageSignUp/getAllEmployee/{id}
+```text 
+Get All Packages signed up to by Employees, found by the Employee's ID{id}.
+```
+- http://localhost:8080/packageSignUp/delete/{id}
+```text 
+Deletes a Package that an Employee signed up to by Package Sign Up ID{id}. 
+```
 
 # Usage of Create React App
 
