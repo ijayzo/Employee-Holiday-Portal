@@ -52,16 +52,13 @@ The Employee Holiday Portal is a web based software that helps organizations off
 • Add Images to Review and Comments
 
 # Getting Started
+- Only works on GCP. Enable Google Kubernetes Engine API and install setup Google Cloud CLI (install the App Engine in the CLI).
 - git clone https://github.com/ijayzo/Proj2Team4.git
 - git clone https://github.com/ijayzo/app3mailsender.git
 - git clone https://github.com/ijayzo/React.git 
 - Inside IDE, package the application 
 - In IDE terminal (for all apps) (change <name> to your image name) run this code: docker build -t dockerhubusername/name . 
-- Go to VS Code docker-compose.yml file and in terminal run -> docker-compose up -d
-(include all environment setup steps)
-• Only works on GCP
-All the code required to get started
-Images of what it should look like
+- Go to VS Code and open the folder that holds the applications. In terminal, run -> deployment up -d
 
 # Usage of Employee Holiday Portal App
 
