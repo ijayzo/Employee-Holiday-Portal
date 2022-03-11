@@ -1,5 +1,4 @@
 # Employee-Holiday-Portal
-Project 2, Team 4, DevOps/SRE 
 The Employee Holiday Portal is a web based software that helps organizations offer affordable travel packages to their employees.
 
 # Technologies Used
