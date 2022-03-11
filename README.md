@@ -52,9 +52,12 @@ The Employee Holiday Portal is a web based software that helps organizations off
 • Add Images to Review and Comments
 
 # Getting Started
-• git clone https://github.com/ijayzo/Proj2Team4.git
-• git clone https://github.com/ijayzo/app3mailsender.git
-• git clone https://github.com/ijayzo/React.git 
+- git clone https://github.com/ijayzo/Proj2Team4.git
+- git clone https://github.com/ijayzo/app3mailsender.git
+- git clone https://github.com/ijayzo/React.git 
+- Inside IDE, package the application 
+- In IDE terminal (for all apps) (change <name> to your image name) run this code: docker build -t dockerhubusername/name . 
+- Go to VS Code docker-compose.yml file and in terminal run -> docker-compose up -d
 (include all environment setup steps)
 • Only works on GCP
 All the code required to get started
@@ -256,7 +259,6 @@ jvm_memory_max_bytes{area="nonheap",id="Metaspace",} -1.0
 jvm_memory_max_bytes{area="nonheap",id="CodeHeap 'non-nmethods'",} 5898240.0
 jvm_memory_max_bytes{area="heap",id="G1 Eden Space",} -1.0
 ```
-(Here, you instruct other people on how to use your project after they’ve installed it. This would also be a good place to include screenshots of your project in action.)
 
 # Contributors
 Noel Pogi, Richmond Awuah Adjei, Casey Spencer
