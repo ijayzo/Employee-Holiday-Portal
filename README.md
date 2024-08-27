@@ -257,4 +257,4 @@ jvm_memory_max_bytes{area="heap",id="G1 Eden Space",} -1.0
 ```
 
 # Contributors
-Noel Pogi, Richmond Awuah Adjei, Casey Spencer
+Noel Pogi, Richmond Awuah Adjei, Casey Spencer, Isaias Jasso
